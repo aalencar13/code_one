@@ -6,7 +6,7 @@ print(f'Olá {nome.title()}, seja bem vindo ao jogo da forca!')
 input('Pressione a tecla enter para começar o jogo: ')
 os.system('cls')
 
-lista_de_palavras = ['banana', 'laranja', 'abacaxi','limão', 'uva']
+lista_de_palavras = ['banana', 'laranja', 'abacaxi','limão', 'uva','morango']
 palavra_selecionada = random.choice(lista_de_palavras).upper()
 tamanho_palavra = len(palavra_selecionada)
 palavra_codificada = ['_']*tamanho_palavra
